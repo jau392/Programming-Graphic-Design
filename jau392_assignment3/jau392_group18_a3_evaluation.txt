@@ -1,0 +1,10 @@
+Our team worked largely independently up until Monday, then integrated the two .pde files
+and related auxiliary files together into the main assignment folder. We then proceeded to
+test our submission against the rubric independently and — once we had reached a unanimous
+decision that our collective work satisfied the requirements – submitted.
+
+Muxin was a somewhat slower responder, but made valuable contributions to the Python script
+among others. Wynne was a great communicator and the one who chiefly partitioned the tasks,
+but had a rather busy schedule.I made the most firsthand contributions to the actual Processing file rough drafts, taking
+strong initiative. However, considering I did not realize this HAD to be a group project
+until early the last day, my weakness was definitely negligence with checking Canvas inbox.

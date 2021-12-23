@@ -1,0 +1,54 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{lower-alpha\}.}{\leveltext\leveltemplateid2\'02\'01.;}{\levelnumbers\'01;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Description For: It is a Doge Eat Doge World\
+\
+The project we completed is an adaptation of what we have worked on for Assignment 7. It is a dodging based game with a doge meme themed playground. \
+\
+How it works is that the user will login using a desired username, then they will play as a space doge. They will have to collect friendly doges and stars while avoiding enemy judgmental doges and sunglass doges. When they win or lose, the top 5 scores of all users will be displayed on screen. They will have the option of playing again with the same implementation.\
+\
+Classes:\
+1. Main: Displays user input screen and displays all functionality.\
+2. Enemy: Codes behavior of enemies.\
+3. Friend: Codes behavior of friend (star or small doge).\
+4. Friend2: Codes behavior of friend2 (star or small doge).\
+5. Test: More enemy doge behavior.\
+6. Scoring: Keeps track of all scores of players.\
+7. User_Icon: Codes user controlled object behavior.\
+8. Screen: Codes behavior and appearance of win, lose, and pause screens.\
+\
+Requirements fulfilled:\
+\
+\pard\pardeftab720\li720\fi-360\ri0\sl276\slmult1\partightenfactor0
+\ls1\ilvl0\cf0 1.	Keyboard interactivity: The user will be moving around the player icon across the screen using the up, down, left, and right keys on the keyboard. M mutes sound, P pauses game, C continues game from pause.\
+2.	GUI Systems and Interactivity\
+\pard\pardeftab720\li1440\fi-360\ri0\sl276\slmult1\partightenfactor0
+\ls1\ilvl1\cf0 a.	Launch screen where people can enter in a name to play the game\
+b.	Game over screen that can prompt users to play again, if they won, or if they lost\
+c.	There will also be a counter that shows what is the current score users have that round\
+\pard\pardeftab720\li720\fi-360\ri0\sl276\slmult1\partightenfactor0
+\ls1\ilvl1\cf0 3.	Class object animation hierarchy: We have friend class stars in the file that have sparkles that oscillate up and down relative to the main circle. These orbit around in a circle. The enemy class also has a gravity simulated animation, where they bounce up and down. \
+4.	Data input/output: We will be generating an CSV file that will store all the scores given by people that are matched to their name. We will be returning the top 5 scores after each user\'92s game ends on the game over screen whether it be win or loss.\
+5.	Mutable Sound: There will be a sound every time that the user icon \'93consumes\'94 an enemy or friend icon in the game. We will be using the M key to turn the sound on or off.\
+\
+Work distribution: \
+\
+Wynne: GUI System for launch screen, win screen, lose screen, and pause screen, and UI elements during the game like score and high score, UI design with fonts and colors.\
+\
+Muxin: Enemy and friend class object animation hierarchy. Debug.\
+\
+Jeremy: Data input/output with CSV file and mutable sound implementation.\
+\
+Challenges:\
+\
+What was a challenge was the issue of the program running on two members\'92 computers, but not the third. Wynne had some weird issues running sound and getting a nullpointerexception error in playing sound even though Muxin and Jeremy had no issues. This was a weird error because up until that point, the file was working perfectly for Wynne and it was only after compression that it became corrupted. We also struggled with the idea of whether we should shift to a dodging game or stick with agar.io. We ended up switching to a dodging concept because with the theme being doges \'93eating\'94, we wanted to make it so that the goal was to avoid being \'93eaten\'94 while trying to \'93eat\'94 other friendly classes. There are also invisible enemies that serve to increase difficulty and decrease your points.\
+\pard\pardeftab720\li720\fi-360\ri0\sl276\slmult1\partightenfactor0
+\ls1\ilvl1
+\f1\fs22 \cf0 \
+}
